@@ -5,13 +5,13 @@ int t, ctrl;
     int dA, dB;
     String[][] distancia = { // Equivalencias en metros
         {"Brazo (Izada de Bandera)",    "0.6"},
-        {"Bastón de Mando",             "1.2"},
+        {"Baston de Mando",             "1.2"},
         {"Pie",                         "0.33"},
         {"Globo",                       "1.3"},
         {"Codo",                        "0.5"},
         {"Dedo",                        "0.015"},
         {"Brazo",                       "0.2"},
-        {"Lápiz de Dibujo",             "0.185"},
+        {"Lapiz de Dibujo",             "0.185"},
         {"Yeyo",                        "1.5"},
         {"Yeyo Extendido",              "1.9"},
     };
@@ -25,8 +25,8 @@ int t, ctrl;
         {"Bus del SITP",        "7"},
         {"Ciclo Lunar",         "45523"},
         {"Fase Lunar",          "5000"},
-        {"Canción",             "3.5"},
-        {"Semáforo",            "0.45"},
+        {"Cancion",             "3.5"},
+        {"Semaforo",            "0.45"},
         {"Punto en Basquet",    "0.26"},
     };
 
@@ -46,8 +46,7 @@ int t, ctrl;
 
 void setup(){
     // Parámetros Iniciales
-        // fullScreen();
-        size(960,540);
+        fullScreen();
         colorMode(RGB);
         noStroke();
         textSize(height/10);
@@ -55,7 +54,7 @@ void setup(){
         ctrl = 0;
     // Preejecución
         update();
-        noLoop();
+        //noLoop(); // Descomentar para usar en PC
 }
 
 void draw() {
