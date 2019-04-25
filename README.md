@@ -1,0 +1,1 @@
+![Presentación](/Randomizer/Pres.png)
