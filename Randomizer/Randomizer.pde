@@ -111,25 +111,25 @@ void update() {
         else
             t = 0;
     // Selector de Medida (Distancia)
-        dA = (int) random(distancia[0].length);
-        dB = (int) random(distancia[0].length);
+        dA = (int) random(distancia.length);
+        dB = (int) random(distancia.length);
         while (dA == dB) {
-            dA = int( random(distancia[0].length + 1) );
-            dB = int( random(distancia[0].length + 1) );
+            dA = int( random(distancia.length + 1) );
+            dB = int( random(distancia.length + 1) );
         }
     // Selector de Medida (Tiempo)
-        tA = (int) random(tiempo[0].length);
-        tB = (int) random(tiempo[0].length);
+        tA = (int) random(tiempo.length);
+        tB = (int) random(tiempo.length);
         while (tA == tB) {
-            tA = int( random(tiempo[0].length + 1) );
-            tB = int( random(tiempo[0].length + 1) );
+            tA = int( random(tiempo.length + 1) );
+            tB = int( random(tiempo.length + 1) );
         }
     // Selector de Medida (Cantidad)
-        cA = (int) random(cantidad[0].length);
-        cB = (int) random(cantidad[0].length);
+        cA = (int) random(cantidad.length);
+        cB = (int) random(cantidad.length);
         while (cA == cB) {
-            cA = int( random(cantidad[0].length + 1) );
-            cB = int( random(cantidad[0].length + 1) );
+            cA = int( random(cantidad.length + 1) );
+            cB = int( random(cantidad.length + 1) );
         }
     // Control Global
         ctrl++;
